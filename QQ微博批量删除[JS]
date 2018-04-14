@@ -1,0 +1,5 @@
+var delay = 1000; 
+function main(){setInterval("del()",delay);}
+function del(){document.querySelector('.delBtn').click(); setTimeout("redo()", delay);} 
+function redo() {document.querySelector('.gb_btn1').click();} 
+main();
